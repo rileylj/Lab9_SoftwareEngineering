@@ -17,7 +17,7 @@ def encode(password):
         encoded += i
     return encoded
 
-def decode_password(encoded):
+def decode_password(encoded):         #Matthew's code
     decoded_password = ""
     for i in encoded:
         i = int(i)
